@@ -1,4 +1,14 @@
-This tool reduces manual analysis time for SOC analysts.
+# Security Automator Tool
+
+## How to Run
+
+1. Open the repository in **GitHub Codespaces** or your local terminal.
+2. Run the tool by typing:
+      bash demo.sh
+
+
+
+**This tool reduces manual analysis time for SOC analysts.**
 
 Here’s a quick rundown of what this Security Automation Tool / script is doing and what its output will look like:
 What it does
