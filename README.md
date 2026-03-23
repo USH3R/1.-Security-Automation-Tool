@@ -1,4 +1,4 @@
-# Security Automator Tool
+# Security Automation Tool, a Hackathon Project
 
 **How to Run the Application**
   
