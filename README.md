@@ -1,20 +1,41 @@
 # Security Automator Tool
 
-## How to Run the Application
+**How to Run the Application**
+  
+1. Run in GitHub Codespaces (Recommended)  
+Open this repository on GitHub.  
+Click Code → Codespaces → Create Codespace on main.  
+Wait for the environment to load.  
+Open the terminal inside Codespaces.  
+Run:         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bash demo.sh  
+  
+2. Run Manually Inside the Repository (Local Machine)  
+If you downloaded or cloned the repository:  
+Open a terminal.  
+Navigate to the project folder.  
+Example:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cd Security-Automation-Tool  
+Run the launcher:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bash demo.sh  
 
-1. Open Codespace (Github) or any terminal and type this:
-         
-         bash demo.sh
-         
-2. Or try the manual executable way (optional):
-   Open Codespace (Github) or any terminal and type this:
-         
-         chmod +x demo.sh
-         
-   Press enter.
-   Then type:
-         
-         ./demo.sh
+3. If You Are Using a Random Public Terminal  
+Public terminals do not automatically have this project. You must first download or clone the repository.  
+A. Option A — Clone with Git  
+Type:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git clone https://github.com/USH3R/Security-Automation-Tool.git  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cd Security-Automation-Tool  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bash demo.sh  
+B. Option B — Download ZIP  
+Click Code → Download ZIP on GitHub.  
+Extract the folder from the ZIP file. Then,  
+Open a terminal in that folder.
+Run / Type: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bash demo.sh
+            
+4. Quick Start Command  
+This command is only for use inside a Terminal (like the one in Codespaces, terminal, or on your local machine).  
+    Verify Your Location: Ensure your terminal is currently pointed at the project directory;  
+    You should see Security-Automation-Tool in your command prompt.  
+    If you have already performed the setup in steps 1, 2, or 3 and just need to restart the application, type:   
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bash demo.sh 
+---
 
 **This tool reduces manual analysis time for SOC analysts.**
 
